@@ -2,6 +2,9 @@ from flask import Flask, render_template, Response
 from picamera import PiCamera
 import time
 
+print("Coded by Alexander Usov - Deonik")
+print("Copyright 2023 © Alexander Usov")
+
 app = Flask(__name__)
 
 # Erstellen Sie eine Instanz der Kamera
